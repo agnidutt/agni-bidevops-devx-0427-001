@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "agni-bidevops-devx-0427-001"
+  description: "BI Devops Demo"
+  links:
+    - title: Website
+      # Change the template in the future to collect the domain name mtk8s.io
+      # parameters.properties.name(type: string,default: 'world!')
+      url: https://agni-bidevops-devx-0427-001.mtk8s.io
+  annotations:
+    argocd/app-name: "agni-bidevops-devx-0427-001"
+    sonarqube.org/project-key: "agni-bidevops-devx-0427-001"
+    jenkins.io/job-full-name: "agni-bidevops-devx-0427-001_App_Pipeline"
+    github.com/project-slug: kbmdev/agni-bidevops-devx-0427-001
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "agni-bidevops-devx-0427-001"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/team-account"
+  system: "system:default/policy-details"

@@ -1,0 +1,7 @@
+site_name: "agni-bidevops-devx-0427-001"
+docs_dir: docs
+site_description: "BI Devops Demo"
+nav:
+  - Introduction: index.md
+plugins:
+  - techdocs-core
